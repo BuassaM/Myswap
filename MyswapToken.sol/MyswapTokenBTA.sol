@@ -11,7 +11,7 @@ import "
  * all accounts just by listening to said events. Note that this isn't required by the specification, and other
  * compliant implementations may not do it.
  */
-contract ERC20 Beta Token {
+contract ERC20  {
   using SafeMath for uint256;
 
   mapping (address => uint256) internal _balances;
